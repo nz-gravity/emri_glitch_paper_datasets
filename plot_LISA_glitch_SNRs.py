@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import h5py
 
 
-LISA_SNR_file= "glitch_SNRs_dset.h5"
+
+LISA_SNR_file = '/fred/oz303/aboumerd/EMRI_Glitches/Glitch_Code/glitch_SNRs_dset.h5'
 
 #Load LISA SNRs
 with h5py.File(LISA_SNR_file, "r") as f:
